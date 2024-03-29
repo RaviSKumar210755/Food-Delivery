@@ -18,7 +18,7 @@ const CheckoutForm = () => {
     try {
       // Sending form data to the server using Axios POST request
       const response = await axios.post(
-        "http://localhost:3000/create-food",
+        "https://food-delivery-1-0l28.onrender.com/create-food",
         formData
       );
       console.log("Server response:", response.data);
